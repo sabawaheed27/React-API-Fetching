@@ -1,12 +1,7 @@
-import type { NextConfig } from "next";
-
-
-/** @type {import('next').NextConfig} */
-const NextConfig = {
+const nextConfig = {
   images: {
     domains: ["www.themealdb.com"],
   },
 };
 
-module.exports = NextConfig;
-
+export default nextConfig;
